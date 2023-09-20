@@ -12,11 +12,11 @@ namespace Tyuiu.RakhmatullinKK.Sprint0.TaskReview.V0.Test
         public void CheckCalc()
         {
 
-            int FirstNum = 3;
-            int SecondNum = 2;
-            int ThirdNum = 4;
+            int x = 3;
+            int y = 2;
+            int z = 4;
 
-            int res = DataService.Calc(FirstNum, SecondNum, ThirdNum);
+            int res = DataService.Calc(x, y, z);
 
             Assert.AreEqual(45, res);
         }

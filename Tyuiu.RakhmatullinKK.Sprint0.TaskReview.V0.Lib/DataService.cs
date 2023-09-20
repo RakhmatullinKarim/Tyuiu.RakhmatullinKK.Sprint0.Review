@@ -8,9 +8,9 @@ namespace Tyuiu.RakhmatullinKK.Sprint0.TaskReview.V0.Lib
 {
     public class DataService
     {
-        public static int Calc(int FirstNum, int SecondNum, int ThirdNum)
+        public static int Calc(int x, int y, int z)
         {
-            return (FirstNum + SecondNum + ThirdNum) * 5;
+            return (x + y + z) * 5;
         }
     }
 }
