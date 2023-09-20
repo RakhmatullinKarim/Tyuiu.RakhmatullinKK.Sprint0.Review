@@ -11,7 +11,7 @@ namespace Tyuiu.RakhmatullinKK.Sprint0.TaskReview.V0
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("(x+y+z)*5, x=3, y=2, z=4");
+            Console.WriteLine("(x+y+z)*5, x=3, y=2, z=4, ответ на пример:");
             Console.WriteLine(DataService.Calc(3, 2, 4));
             Console.ReadKey();
         }
